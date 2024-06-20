@@ -1,0 +1,27 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# Ignore editor specific files
+*.swp
+*.swo
+*~
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore user data scripts if sensitive
+user_data.sh
+app_user_data.sh
+
+# Ignore outputs from Terraform commands
+terraform.tfplan
+
+# Ignore logs
+*.log
