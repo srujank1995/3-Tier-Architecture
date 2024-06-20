@@ -56,6 +56,7 @@ Plan and apply the Terraform configuration to deploy the infrastructure:
 
 ## File Structure
 Dev-3Tier Architecture/
+
 ![image](https://github.com/srujank1995/3-Tier-Architecture/assets/64701567/e5a19ffc-d364-437e-b61f-7e5028f38301)
 
 ## Usage
