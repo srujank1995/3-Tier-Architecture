@@ -40,7 +40,6 @@ This repository contains the necessary Terraform scripts to deploy a Java applic
           +--------+-------+
           |  Amazon RDS    |
           +----------------+
-------------------------------------------------------------------------
 
 ## Prerequisites
 
