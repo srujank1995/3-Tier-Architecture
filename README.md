@@ -55,14 +55,8 @@ Plan and apply the Terraform configuration to deploy the infrastructure:
 * terraform apply
 
 ## File Structure
-
 Dev-3Tier Architecture/
-├── main.tf                     # Main Terraform configuration
-├── outputs.tf                  # Outputs from the Terraform execution
-├── variables.tf                # Variable definitions
-├── scripts                     # Script for initializing web server
-   ├── install_java_app.sh      # Script for deploying Java application
-└── .gitignore                  # Git ignore file
+![image](https://github.com/srujank1995/3-Tier-Architecture/assets/64701567/e5a19ffc-d364-437e-b61f-7e5028f38301)
 
 ## Usage
 Web Layer: The web server should be accessible via the ELB's DNS name.
@@ -80,6 +74,6 @@ Ensure your Java application is correctly deployed on the application servers as
 * Terraform destroy
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or fixes.
+Contributions are welcome! Please open an issue or submit a pull request for improvements or fixes.
 
 # Hit the Star! ⭐
