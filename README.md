@@ -25,20 +25,8 @@ This repository contains the necessary Terraform scripts to deploy a Java applic
 - **Database Layer**: Amazon RDS for the database.
 
 ## Architecture Overview
-        +------------------------+
-        |   Elastic Load Balancer|
-        +----------+-------------+
-                   |
-           +-------+--------+
-           |                |
-  +--------+--------+ +-----+------+
-  | EC2 Instance 1   | | EC2 Instance 2 |
-  | (Web/Application)| | (Web/Application)|
-  +------------------+ +-----------------+
-                   |
-          +--------+-------+
-          |  Amazon RDS    |
-          +----------------+
+![image](https://github.com/srujank1995/3-Tier-Architecture/assets/64701567/6cfef038-ab00-4405-a8a2-1cf4bc5c1d07)
+
 
 ## Prerequisites
 
